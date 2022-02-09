@@ -1,0 +1,29 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "Node",
+        "module": "commonjs",
+        "target": "ESNext",
+        "lib": [
+            "ES2019",
+            "DOM"
+        ],
+        "outDir": "dist",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "rootDir": "src",
+        "strict": false,
+        "types": [
+            "node"
+        ],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
